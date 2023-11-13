@@ -1,4 +1,4 @@
-# Problems that Graphql solve:
+# Problems that GraphQL solve:
 
    1. Overfetching. With GraphQL we can filter the amount of data that is returned from our endpoints.
    2. Underfetching. We can pick all the data that we need with only one request.
