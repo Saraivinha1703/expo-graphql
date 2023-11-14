@@ -7,7 +7,7 @@ export const Themes = {
   light: vars({
     '--color-primary': '#000000',
     '--color-secondary': '#ffffffff',
-    '--color-outstand': '#2222dd',
+    '--color-outstand': '#2288dd',
   }),
   dark: vars({
     '--color-primary': '#ffffff',
