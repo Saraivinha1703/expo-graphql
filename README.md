@@ -10,27 +10,3 @@ applications to be more performatic.
 
 1.  Have a diferent level of complexity.
 2.  Harder to cache, since our browsers are designed to attend to http requests made by REST APIs and they do it, but with GraphQL we have to cache locally.
-
-# Patterns to create projects using GraphQL
-
-## Schema-First
-
-## Code-First
-
-# Installed Dependencies
-
-## Apollo Server
-
-## class-validator
-
-## reflect-metadata
-
-## type-graphql
-
-# Installed Development Dependencies
-
-## @types/node
-
-## ts-node-dev
-
-## typescript
