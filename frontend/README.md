@@ -121,8 +121,10 @@ import './global.css'
 
 ```
 If you are using Typescript, you need to have an `app.d.ts` file inside your root folder with the following content
+
 ```TS
 /// <reference types="nativewind/types" />
 ```
+
 We just need this so our code recognize tailwind properties in our components.
 # Installing and configuring Apollo Client
