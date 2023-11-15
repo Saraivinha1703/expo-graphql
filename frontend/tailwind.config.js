@@ -7,6 +7,7 @@ module.exports = {
         primary: 'var(--color-primary)',
         secondary: 'var(--color-secondary)',
         outstand: 'var(--color-outstand)',
+        'outstand-secondary': 'var(--color-outstand-secondary)',
       },
     },
   },

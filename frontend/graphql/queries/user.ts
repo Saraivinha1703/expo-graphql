@@ -1,5 +1,11 @@
 import { gql } from '@apollo/client';
 
+export const HELLO_WORLD = gql`
+  query {
+    hello
+  }
+`;
+
 export const GET_USERS = gql`
   query {
     users {

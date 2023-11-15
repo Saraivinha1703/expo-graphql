@@ -8,21 +8,25 @@ export const Themes = {
     '--color-primary': '#000000',
     '--color-secondary': '#ffffffff',
     '--color-outstand': '#2288dd',
+    '--color-outstand-secondary': '#88dd55',
   }),
   dark: vars({
     '--color-primary': '#ffffff',
-    '--color-secondary': '#000000',
+    '--color-secondary': '#222',
     '--color-outstand': '#552288',
+    '--color-outstand-secondary': '#3399bb',
   }),
   xmas: vars({
     '--color-primary': '#fff',
-    '--color-secondary': '#3225de',
-    '--color-outstand': '#0ca90c',
+    '--color-secondary': '#4546de',
+    '--color-outstand': '#4ca94c',
+    '--color-outstand-secondary': '#ce4d4d',
   }),
   halloween: vars({
-    '--color-primary': '#000000',
-    '--color-secondary': '#5522dd',
+    '--color-primary': '#222',
+    '--color-secondary': '#4422bb',
     '--color-outstand': '#ffcc00',
+    '--color-outstand-secondary': '#85e21f',
   }),
 };
 
@@ -40,14 +44,14 @@ export const StatusBarTheme: StatusBarThemeStyle = {
   },
   dark: {
     style: 'light',
-    background: '#000',
+    background: '#222',
   },
   xmas: {
     style: 'light',
-    background: '#3225de',
+    background: '#4546de',
   },
   halloween: {
     style: 'dark',
-    background: '#52d',
+    background: '#4422bb',
   },
 };
