@@ -21,6 +21,30 @@ Now we are going to install `expo-router` and all we need to do is install the f
 ```
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar react-native-gesture-handler
 ```
-After this, change your `package.json` file
+After this, change your `package.json` file, for SDK version 49 and above, use:
+```JSON
+{
+  "main": "expo-router/entry"
+}
+```
+For version 48, follow their documentation [here](https://docs.expo.dev/routing/installation/#setup-entry-point).
+Inside your `app.json` add a scheme.
+```JSON
+{
+  "scheme": "your-app-scheme"
+}
+```
+Now update you `babel.config.js` file, including `expo-router` plugin.
+
+```JS
+module.exports = function (api) {
+  api.cache(true);
+  return {
+    presets: ['babel-preset-expo'],
+    plugins: ['expo-router/babel'],
+  };
+};
+```
+To finish this part of the configuration, you just have to create a `app/_layout.js` file inside your root folder or `app/index.{js,jsx,ts,tsx}`
 
 # Installing and configuring Apollo Client
